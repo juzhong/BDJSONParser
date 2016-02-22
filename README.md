@@ -7,11 +7,11 @@ But the code does not have to undergo a rigorous testing!
 
 you can test the program as following.
 
-In the command line:
+In the command line,enter:
 
-g++ -c -std=gnu++11 *.cpp       //Enter
+g++ -c -std=gnu++11 *.cpp       
 
-g++ -o BDJSONParserTest *.o     //Enter
+g++ -o BDJSONParserTest *.o 
 
-./BDJSONParserTest              //Enter to see the result!
+./BDJSONParserTest            
 
