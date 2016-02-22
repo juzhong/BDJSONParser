@@ -1,13 +1,13 @@
 //
-//  BDJSONParser.cpp
-//  MyFuctionTest
+//  BDJSONParserTest.cpp
 //
 //  Created by juzhong on 16/2/19.
 //  Copyright © 2016年 HUANG BINGDONG. All rights reserved.
 //
 
-#include "BDJSONParser.hpp"
+#include <stdio.h>
 #include <iostream>
+#include "BDJSONParser.hpp"
 
 
 void BDJSONParserTest()
@@ -35,4 +35,10 @@ void BDJSONParserTest2()
     std::cout<<P["city"]<<std::endl;
 }
 
+int main(int argc, const char * argv[]) 
+{
+    BDJSONParserTest();
+    BDJSONParserTest2();
+    return 0;
+}
 
