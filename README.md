@@ -9,9 +9,9 @@ you can test the program as following.
 
 In the command line:
 
-g++ -c -std=gnu++11 *.cpp  //Enter
+g++ -c -std=gnu++11 *.cpp       //Enter
 
-g++ -o BDJSONParserTest *.o //Enter
+g++ -o BDJSONParserTest *.o     //Enter
 
-./BDJSONParserTest //Enter to see the result!
+./BDJSONParserTest              //Enter to see the result!
 
