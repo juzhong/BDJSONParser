@@ -1,6 +1,5 @@
 //
 //  BDJSONParser.hpp
-//  MyFuctionTest
 //
 //  Created by juzhong on 16/2/19.
 //  Copyright © 2016年 HUANG BINGDONG. All rights reserved.
@@ -143,7 +142,5 @@ public:
         return _jsonString.substr(pos,npos-pos+1);
     }
  };
-
-void BDJSONParserTest();
 
 #endif /* BDJSONParser_hpp */
