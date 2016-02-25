@@ -12,6 +12,11 @@
 #include <string>
 #include <map>
 
+#define CASE_NUM(x)             case (x):\
+                                {\
+                                    return _jsonString.substr(startPos,case_number(startPos)-startPos);\
+                                }\
+                                break;
 
 class BDJSONParser
 {
@@ -41,11 +46,17 @@ public:
                 return _jsonString.substr(startPos+1,case_string(startPos)-startPos-1);
             }
                 break;
-            case '1':
-            {
-                return _jsonString.substr(startPos,case_number(startPos)-startPos);
-            }
-                break;
+                CASE_NUM('1')
+                CASE_NUM('2')
+                CASE_NUM('3')
+                CASE_NUM('4')
+                CASE_NUM('5')
+                CASE_NUM('6')
+                CASE_NUM('7')
+                CASE_NUM('8')
+                CASE_NUM('9')
+                CASE_NUM('0')
+
             case 't':
             {
                 return "true";
