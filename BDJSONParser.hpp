@@ -14,7 +14,7 @@
 
 #define CASE_NUM(x)             case (x):\
                                 {\
-                                    return _jsonString.substr(startPos,case_number(startPos)-startPos);\
+                                    return _jsonString.substr(startPos,case_number(startPos)-startPos-1);\
                                 }\
                                 break;
 
